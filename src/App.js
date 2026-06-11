@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 const chapters = [
   {
@@ -2859,6 +2860,7 @@ export default function JavaDSAGuide() {
           </div>
         </div>
       </div>
+      <Analytics />
     </div>
   );
 }
