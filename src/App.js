@@ -2217,9 +2217,9 @@ public class TreesComplete {
             bst = insert(bst, val);
         }
         //        5
-        //       / \
+        //       
         //      3   7
-        //     / \ / \`
+        //     
         //    1  4 6  8
         
         System.out.print("Inorder (sorted): ");
