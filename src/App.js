@@ -2216,10 +2216,8 @@ public class TreesComplete {
         for (int val : new int[]{5, 3, 7, 1, 4, 6, 8}) {
             bst = insert(bst, val);
         }
-        //        5
-        //       
+        //        5   
         //      3   7
-        //     
         //    1  4 6  8
         
         System.out.print("Inorder (sorted): ");
