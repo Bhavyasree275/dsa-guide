@@ -2673,7 +2673,7 @@ export default function JavaDSAGuide() {
       {/* HEADER */}
       <div style={{ background: "linear-gradient(135deg, #1a1a3e 0%, #0f0f1a 100%)", borderBottom: "2px solid #2a2a4a", padding: "24px 32px" }}>
         <h1 style={{ margin: 0, fontSize: "32px", fontWeight: 900, background: "linear-gradient(90deg, #ff6b35, #ffd700, #4ecdc4)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", letterSpacing: "-0.5px" }}>
-          ☕ Java + DSA  Mastery Guide By Bhavya Sree Naru
+          ☕ Java + DSA  Mastery Guide By Bhavya
         </h1>
         <p style={{ margin: "8px 0 0", fontSize: "17px", color: "#8888bb" }}>
            Every concept explained from scratch · Full code included
