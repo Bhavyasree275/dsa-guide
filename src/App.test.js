@@ -1,8 +1,13 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+// Mock the Analytics component
+jest.mock('@vercel/analytics/react', () => ({
+  Analytics: () => null,
+}));
+
+test('renders Java DSA Guide', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const titleElement = screen.getByText(/Java \+ DSA Complete Mastery Guide/i);
+  expect(titleElement).toBeInTheDocument();
 });
